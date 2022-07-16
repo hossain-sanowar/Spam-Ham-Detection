@@ -1,3 +1,18 @@
 # Spam-Email-Detection
 
-https://github.com/HossainSanowar-Github/Spam-Email-Detection/blob/main/spam_v2.png
+Ham or spam? SMS messages are identified using a machine learning technique. There are other current ways for spam filtering, however the focus of this project is limited to the usage of the stated machine learning algorithms. All models such as Naïve Bayes, RandomForestClassifier, KNeighborsClassifier, Support Vector Machines, DecisionTreeClassifier, LogisticRegressionhave been applied and their performance metrics have been determined. The parameters are hyper-tuned using GridSearchCV to determine which parameters have the highest score. The Suport vector machine model is picked for this project since it has the highest score compared to the other models. The performance measures are recalculated after re-feeding this model with the optimal parameters discovered during fine tuning.
+
+# Model Building
+The Model-Building Process
+
+Setting up features and target as X and y
+Splitting the testing and training sets
+Build a pipeline of model for four different classifiers.
+Naïve Bayes
+RandomForestClassifier
+KNeighborsClassifier
+Support Vector Machines
+DecisionTreeClassifier
+LogisticRegression
+Fit all the models on training data
+Get the cross-validation on the training set for all the models for accuracy
