@@ -14,5 +14,3 @@ The Model-Building Process
   - Support Vector Machines
   - DecisionTreeClassifier
   - LogisticRegression
-Fit all the models on training data
-Get the cross-validation on the training set for all the models for accuracy
