@@ -5,14 +5,14 @@ Ham or spam? SMS messages are identified using a machine learning technique. The
 # Model Building
 The Model-Building Process
 
-Setting up features and target as X and y
-Splitting the testing and training sets
-Build a pipeline of model for four different classifiers.
-Naïve Bayes
-RandomForestClassifier
-KNeighborsClassifier
-Support Vector Machines
-DecisionTreeClassifier
-LogisticRegression
+1. Setting up features and target as X and y
+2. Splitting the testing and training sets
+3. Build a pipeline of model for four different classifiers.
+  - Naïve Bayes
+  - RandomForestClassifier
+  - KNeighborsClassifier
+  - Support Vector Machines
+  - DecisionTreeClassifier
+  - LogisticRegression
 Fit all the models on training data
 Get the cross-validation on the training set for all the models for accuracy
